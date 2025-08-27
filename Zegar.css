@@ -1,0 +1,36 @@
+#welcomeAndExplanationText{
+    font-size: 50px;
+    justify-self: center;
+    display: none;
+}
+html{
+    background-color: rgb(99, 222, 93);
+}
+#Zegar{
+    align-self: center;
+    justify-self: center;    
+}
+#divForZegar{
+    width: 500px;
+    height: 500px;
+    display: none;
+    align-self: center;
+    justify-self: center;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.buttonsForZegar{
+    cursor: pointer;
+    position: absolute;
+    opacity: 1;
+    background-color: red;
+    width: 5px;
+    height: 5px;
+}
+
+#divForZegarButtons{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+}

@@ -3,8 +3,10 @@ const WELCOME_AND_EXPLANATION_TEXT = document.querySelector("#welcomeAndExplanat
 
 const DivForZegar = document.querySelector("#divForZegar")
 
+const slajdOneImage = document.querySelector("#slajdOneImage");
+
 //Funkcje ;)
-const ShowAndHide = htmlElementLol => {
+const ShowAndHide = (timeToShow,htmlElementLol) => {
         // czk 2 sekundy, pokaż...
     setTimeout(function() {
         htmlElementLol.style.display = "flex";
@@ -17,8 +19,8 @@ const ShowAndHide = htmlElementLol => {
                 htmlElementLol.style.display = "none"; 
                 htmlElementLol.classList.remove("animate__fadeInUp","animate__fadeOutDown") 
             },300)
-        }, 2000);
-    }, 2000);
+        }, timeToShow);
+    }, timeToShow);
 }
 const ShowZegar = timeToWait => {
         setTimeout(function(){
@@ -28,11 +30,18 @@ const ShowZegar = timeToWait => {
 }
 // Kod
 window.onload = function() {
-    ShowAndHide(WELCOME_AND_EXPLANATION_TEXT);
+    ShowAndHide(2000,WELCOME_AND_EXPLANATION_TEXT);
     setTimeout(function(){
         WELCOME_AND_EXPLANATION_TEXT.innerHTML = "Hej, kliknij godzinkę, a zobaczysz za chwilkę moją rodzinkę. Każda godzinka przynosi nową wspólną chwilkę!";
-        WELCOME_AND_EXPLANATION_TEXT.style.fontSize = "25px";
-        ShowAndHide(WELCOME_AND_EXPLANATION_TEXT);
+        WELCOME_AND_EXPLANATION_TEXT.style.fontSize = "40px";
+        ShowAndHide(7000,WELCOME_AND_EXPLANATION_TEXT);
     },4500)
-    ShowZegar(10000)
+    ShowZegar(21000)
+    setTimeout(function(){
+        slajdOneImage.classList.add("animate__animated", "animate__fadeOutDown")
+        setTimeout(function(){
+            slajdOneImage.style.display = "none";
+        },2000)
+    },20000)
+
 };

@@ -48,6 +48,114 @@ html{
     height: 100px;
     width: 100px;
     left: 100px;
+    bottom: 180px;
+    opacity: 0;
+}
+
+
+#button11{
+    position: absolute;
+    border-radius: 50px;
+    height: 120px;
+    width: 120px;
+    right: 80px;
     bottom: 185px;
+    opacity: 0;
+}
+#button5{
+    position: absolute;
+    border-radius: 50px;
+    height: 100px;
+    width: 100px;
+    left: 100px;
+    top: 240px;
+    opacity: 0;
+}
+
+#button7{
+    position: absolute;
+    border-radius: 50px;
+    height: 100px;
+    width: 100px;
+    right: 100px;
+    top: 240px;
+    opacity: 0;
+}
+#button3{
+    position: absolute;
+    border-radius: 50px;
+    height: 100px;
+    width: 100px;
+    left: 220px;
+    top: -25px;
+    opacity: 0;
+}
+
+#button9{
+    position: absolute;
+    border-radius: 50px;
+    height: 100px;
+    width: 100px;
+    right: 230px;
+    top: -25px;
+    opacity: 0;
+}
+
+#button6{
+    position: absolute;
+    border-radius: 50px;
+    height: 100px;
+    width: 100px;
+    top: 275px;
+    right: -50px;
+    opacity: 0;
+}
+#button12{
+    position: absolute;
+    border-radius: 50px;
+    height: 120px;
+    width: 100px;
+    bottom: 220px;
+    right: -50px;
+    opacity: 0;
+}
+
+#button2{
+    position: absolute;
+    border-radius: 50px;
+    height: 110px;
+    width: 120px;
+    left: 190px;
+    bottom: 80px;
+    opacity: 0;
+}
+
+#button4{
+    position: absolute;
+    border-radius: 50px;
+    height: 110px;
+    width: 100px;
+    left: 190px;
+    top: 125px;
+    opacity:0;
+}
+
+#button8{
+    position: absolute;
+    border-radius: 50px;
+    height: 100px;
+    width: 100px;
+    right: 200px;
+    top: 130px;
+    opacity: 0;
+}
+
+#button10{
+    position: absolute;
+    border-radius: 50px;
+    height: 120px;
+    width: 110px;
+    right: 175px;
+    bottom: 75px;
     opacity: 0;
 }

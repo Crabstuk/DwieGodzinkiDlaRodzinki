@@ -9,25 +9,28 @@
     <title>Dwie Godzinki Dla Rodzinki</title>
 </head>
 <body>
+        <img alt="logo Sorimex" src="https://www.sorimex.pl/public/img/logo.svg" id="logoSorimexu" >
+        <h2 id="pickHourText">Wybierz godzinę, i poczekaj aż zdjęcie zniknie.</h2>
     <h1 id="welcomeAndExplanationText" class="animate__animated">Hej!</h1>
     <div id="divForZegar">
             <img id="Zegar" alt="zegar" src="Zdjęcia/Zegar.png" width="1000" height="1000">
+            <img alt="aktualneZdjęcie" id="currentPhotoDisplay" src="Zdjęcia/ZdjęciaDoZegara/Photo1.jpg">
             <div id="divForZegarButtons">
-                <button class="buttonsForZegar" id="button1"></button>
-                <button class="buttonsForZegar" id="button2"></button>
-                <button class="buttonsForZegar" id="button3" ></button>
-                <button class="buttonsForZegar" id="button4"></button>
-                <button class="buttonsForZegar" id="button5" ></button>
-                <button class="buttonsForZegar" id="button6" ></button>
-                <button class="buttonsForZegar" id="button7" ></button>
-                <button class="buttonsForZegar" id="button8"></button>
-                <button class="buttonsForZegar" id="button9"></button>
-                <button class="buttonsForZegar" id="button10"></button>
-                <button class="buttonsForZegar" id="button11" ></button>
-                <button class="buttonsForZegar" id="button12"></button>
+                <button class="buttonsForZegar" id="button1" onclick="ShowAndHidePhoto(5000,1)"></button>
+                <button class="buttonsForZegar" id="button2" onclick="ShowAndHidePhoto(5000,2)"></button>
+                <button class="buttonsForZegar" id="button3" onclick="ShowAndHidePhoto(5000,3)" ></button>
+                <button class="buttonsForZegar" id="button4" onclick="ShowAndHidePhoto(5000,4)"></button>
+                <button class="buttonsForZegar" id="button5" onclick="ShowAndHidePhoto(5000,5)" ></button>
+                <button class="buttonsForZegar" id="button6" onclick="ShowAndHidePhoto(5000,6)" ></button>
+                <button class="buttonsForZegar" id="button7" onclick="ShowAndHidePhoto(5000,7)" ></button>
+                <button class="buttonsForZegar" id="button8" onclick="ShowAndHidePhoto(5000,8)"></button>
+                <button class="buttonsForZegar" id="button9" onclick="ShowAndHidePhoto(5000,9)"></button>
+                <button class="buttonsForZegar" id="button10" onclick="ShowAndHidePhoto(5000,10)"></button>
+                <button class="buttonsForZegar" id="button11" onclick="ShowAndHidePhoto(5000,11)" ></button>
+                <button class="buttonsForZegar" id="button12" onclick="ShowAndHidePhoto(5000,12)"></button>
             </div>
     </div>
-    <img alt="family photo" id="slajdOneImage" src="Zdjęcia/slajd1.jpg" width="500" height="500" >
+    <img alt="family photo" id="slajdOneImage" src="Zdjęcia/slajd1.jpg" width="1000" height="500" >
     <script src="Zegar.js"></script>
 </body>
 </html>

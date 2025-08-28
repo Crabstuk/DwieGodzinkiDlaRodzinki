@@ -1,11 +1,13 @@
 #welcomeAndExplanationText{
-    font-size: 50px;
+    font-size: 70px;
     justify-self: center;
     display: none;
 }
+
 html{
+    overflow: hidden;
     font-style: italic;
-    background-image: linear-gradient(to right,rgb(0, 255, 242), rgb(255, 255, 255));
+    background-image: linear-gradient(to right,rgb(255, 255, 255), rgb(255, 0, 0));
 }
 #Zegar{
     align-self: center;
@@ -37,7 +39,10 @@ html{
 }
 
 #slajdOneImage{
-    display: flex;
+    position: absolute;
+    left: 500px;
+    top: 200px;
+    display: none;
     align-self: center;
     justify-self: center;
 }
@@ -158,4 +163,28 @@ html{
     right: 175px;
     bottom: 75px;
     opacity: 0;
+}
+#currentPhotoDisplay{
+    height: 700px;
+    width: 700px;
+    display: none;
+}
+
+#logoSorimexu{
+    position: absolute;
+    display: flex;
+    justify-self: start;
+    width: 250px;
+    height: 250px;
+    bottom: 50px;
+}
+
+h2{
+    position: absolute;
+    display: none;
+    justify-self: start;
+    width: 250px;
+    height: 250px;
+    bottom: 25px;
+
 }
